@@ -2,15 +2,24 @@
 
 GovernanaceHack 2021 Entry 
 
-# Team: 
+## Team: 
 Taiwo Efunogbon, Abi Efunogbon, Yewande Sobola , Deji Kumolu-Johnson, Sola Erogbogbo
 
 
-# Problem Definition
+## Problem Definition
 
 
-# Project Management Tool:
 
-Azure DevOps Board - for project planning and scrum
-Google WorkSpace - Collaborataion, Chat, Video Meeting
+
+## Project Management Tool:
+
+<dl>
+  <dt>Azure DevOps Board</dt>
+  <dd>for project planning, managing project deliverables and work items </dd>
+   https://dev.azure.com/glamkids/GovernanceHack2021 
+  
+  <dt>Google WorkSpace</dt>
+  <dd> for sharing files and online video meetings.</dd>
+</dl>
+
 
