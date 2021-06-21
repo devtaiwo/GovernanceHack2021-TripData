@@ -95,7 +95,7 @@
                     <Label Text="Your Trips" Style="{StaticResource MenuLabel}" />
                     <Label Text="Help" Style="{StaticResource MenuLabel}" />
                     <Label Text="Payment" Style="{StaticResource MenuLabel}" />
-                    <Label Text="Free Rides" Style="{StaticResource MenuLabel}" />
+                    <Label Text="Insure Travel" Style="{StaticResource MenuLabel}" />
                     <Label Text="Settings" Style="{StaticResource MenuLabel}" />
                 </StackLayout>
 

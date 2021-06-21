@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿//using TripData.ViewModels;
+using Xamarin.Forms;
 
 namespace TripData.Views
 {
@@ -7,6 +8,7 @@ namespace TripData.Views
         public RecentPlaceView()
         {
             InitializeComponent();
+           // BindingContext = new RecentPlaceViewModel();
         }
 
     }

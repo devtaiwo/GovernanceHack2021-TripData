@@ -32,6 +32,8 @@ namespace TripData.ViewModels
         public ICommand LoadRouteCommand { get; set; }
         public ICommand CleanPolylineCommand { get; set; }
         public ICommand ChooseLocationCommand { get; set; }
+        public ICommand ScanQRCommand { get; set; }
+
 
         public ObservableCollection<GooglePlaceAutoCompletePrediction> Places { get; set; }
         public ObservableCollection<GooglePlaceAutoCompletePrediction> RecentPlaces { get; set; }
@@ -41,7 +43,7 @@ namespace TripData.ViewModels
         public PriceOption PriceOptionSelected { get; set; }
 
         public string PickupLocation { get; set; }
-
+        public string FullAddresses { get; set; }
         Location OriginCoordinates { get; set; }
         Location DestinationCoordinates { get; set; }
 
@@ -104,6 +106,32 @@ namespace TripData.ViewModels
                 if(PageStatusEnum== PageStatusEnum.Searching)
                 {
                     GetLocationNameCommand.Execute(param);
+                }
+            });
+
+            FullAddresses = "Where to?";
+            ScanQRCommand = new Command<string>(async (param) =>
+            {
+                try
+                {
+                    DependencyService.Register<IQrScanningService>();
+                    var scanner = DependencyService.Get<IQrScanningService>();
+                    var result = await scanner.ScanAsync();
+                    if (result != null)
+                    {
+                        FullAddresses = "Sheraton Lagos Hotel, 30 Mobolaji Bank Anthony Way, Maryland 021189, Lagos";
+                        
+                        
+                    }
+
+                 
+                        
+                    
+                }
+                catch (Exception ex)
+                {
+
+                    throw;
                 }
             });
 

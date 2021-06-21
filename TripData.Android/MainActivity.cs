@@ -9,6 +9,7 @@ using Android.OS;
 using Acr.UserDialogs;
 using PanCardView.Droid;
 using ImageCircle.Forms.Plugin.Droid;
+using ZXing.Mobile;
 
 namespace TripData.Droid
 {
@@ -30,7 +31,7 @@ namespace TripData.Droid
             UserDialogs.Init(() => this);
             Xamarin.FormsGoogleMaps.Init(this, savedInstanceState); // initialize for 
 
-
+            MobileBarcodeScanner.Initialize(this.Application);
             LoadApplication(new App());
         }
 
