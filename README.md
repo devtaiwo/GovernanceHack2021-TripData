@@ -36,6 +36,7 @@ A Google API Key is required to run the project. Insert The Google API key in co
 
 
 ## APP Screenshots:
+<img src="https://user-images.githubusercontent.com/28142790/122923701-dc375d80-d35c-11eb-9ddb-0cb104bb2eb4.png" height= "50%" width="50%"/>
 ![image](https://user-images.githubusercontent.com/28142790/122923701-dc375d80-d35c-11eb-9ddb-0cb104bb2eb4.png)
 ![image](https://user-images.githubusercontent.com/28142790/122923817-fc671c80-d35c-11eb-9e18-596d9e81ae4c.png)
 ![image](https://user-images.githubusercontent.com/28142790/122923852-0557ee00-d35d-11eb-8d52-29461231ed6d.png)
