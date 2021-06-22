@@ -30,4 +30,5 @@ We seek to collect the transport data directly from mobile devices and IOT camer
   <dd> for sharing files and online video meetings.</dd>
 </dl>
 
-
+## Project Requirement To Run:
+A Google API Key is required to run the project. Insert The Google API key in constants.cs
