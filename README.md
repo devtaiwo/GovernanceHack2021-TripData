@@ -55,3 +55,8 @@ A Google API Key is required to run the project. Insert The Google API key in co
 
 
 </p>
+
+
+## Web App Screenshots:
+![image](https://user-images.githubusercontent.com/28142790/122984588-158bbf80-d395-11eb-8d50-b83863aebcd1.png)
+
