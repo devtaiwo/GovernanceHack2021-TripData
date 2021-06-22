@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Grid xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="TripData.Views.InsuranceView"
+             xmlns:model="clr-namespace:TripData.Models"
+             xmlns:enumVal="clr-namespace:TripData.Helpers"
+             VerticalOptions="End"
+             HorizontalOptions="FillAndExpand"
+             BackgroundColor="White"
+             RowSpacing="5"
+             ColumnSpacing="15"
+             Padding="0,20">
+
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="*"/>
+    </Grid.ColumnDefinitions>
+
+    <Label Text="{Binding Source={x:Static model:User.ShortName}, StringFormat='Good morning, {0}'}"
+             FontAttributes="Bold"
+             FontSize="17"
+             Margin="0,0,0,15"
+             HorizontalOptions="CenterAndExpand"
+             Grid.Row="0"
+             Grid.Column="0"
+             Grid.ColumnSpan="2"/>
+
+    <BoxView HorizontalOptions="FillAndExpand"
+               Color="Gray"
+               HeightRequest="1"
+               Grid.Row="1"
+               Grid.Column="0"
+               Grid.ColumnSpan="2"/>
+
+
+
+
+</Grid>

@@ -4,6 +4,7 @@
              x:Class="TripData.Views.MenuPage"
              xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              xmlns:model="clr-namespace:TripData.Models"
+             xmlns:enumVal="clr-namespace:TripData.Helpers"
              Title="Menu" BackgroundColor="White">
     <ContentPage.Content>
         <StackLayout>
@@ -93,11 +94,16 @@
                 </Grid>
                 <StackLayout Padding="20,20,0,0" Spacing="20" BackgroundColor="White">
                     <Label Text="Your Trips" Style="{StaticResource MenuLabel}" />
-                    <Label Text="Help" Style="{StaticResource MenuLabel}" />
-                    <Label Text="Payment" Style="{StaticResource MenuLabel}" />
-                    <Label Text="Insure Travel" Style="{StaticResource MenuLabel}" />
-                    <Label Text="Settings" Style="{StaticResource MenuLabel}" />
-                </StackLayout>
+                <Label Text="Help" Style="{StaticResource MenuLabel}" />
+               
+                
+                <Label Text="Payment" Style="{StaticResource MenuLabel}" />
+                
+                <Label Text="Settings" Style="{StaticResource MenuLabel}" />
+                <Button Text="My Rewards" Clicked="OnBackPage" BackgroundColor="White"  Style="{StaticResource MenuLabel}"
+                        HorizontalOptions="StartAndExpand"
+                        VerticalOptions="StartAndExpand"/>
+            </StackLayout>
 
         </StackLayout>
     </ContentPage.Content>

@@ -3,6 +3,6 @@ namespace TripData.Helpers
 {
     public enum PageStatusEnum
     {
-        Default, Searching, ShowingRoute
+        Default, Searching, ShowingRoute, InsuranceRoute
     }
 }

@@ -11,5 +11,9 @@ namespace TripData.Views
         {
             InitializeComponent();
         }
+        private async void OnBackPage(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new Chimoney());
+        }
     }
 }

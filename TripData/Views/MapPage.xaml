@@ -53,6 +53,17 @@
                             </DataTrigger>
                         </local:PriceView.Triggers>
                    </local:PriceView>
+
+            <local:InsuranceView IsVisible="false"
+                                    Grid.Row="1">
+                <local:InsuranceView.Triggers>
+                    <DataTrigger TargetType="local:InsuranceView"
+                                         Binding="{Binding PageStatusEnum}"
+                                         Value="InsuranceRoute">
+                        <Setter Property="IsVisible" Value="True"/>
+                    </DataTrigger>
+                </local:InsuranceView.Triggers>
+            </local:InsuranceView>
         </Grid>
         
         

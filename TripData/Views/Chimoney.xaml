@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TripData.Views.Chimoney"
+             xmlns:local="clr-namespace:TripData.Views"
+             xmlns:enumVal="clr-namespace:TripData.Helpers"
+               xmlns:model="clr-namespace:TripData.Models"
+           
+             
+            >
+    <ContentPage.Content>
+        <Grid RowSpacing="0"
+          x:Name="layout"
+          VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0"
+             
+              ColumnSpacing="0"
+              RowSpacing="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Label Text="Good morning Abi E"
+             FontAttributes="Bold"
+             FontSize="17"
+             Margin="0,0,0,0"
+             HorizontalOptions="CenterAndExpand"
+             Grid.Row="0"
+             Grid.Column="0"
+             Grid.ColumnSpan="2"/>
+
+                <BoxView HorizontalOptions="FillAndExpand"
+               Color="Gray"
+               HeightRequest="1"
+               Grid.Row="1"
+               Grid.Column="0"
+               Grid.ColumnSpan="2"/>
+
+                <!--Recent place 1-->
+                <Image Source="ic_circle_point"
+            VerticalOptions="Start"
+                       HorizontalOptions="Start"
+            Margin="20,0,0,0"
+            HeightRequest="35"
+            WidthRequest="35"
+            Grid.Row="2"
+            Grid.Column="0"
+            Grid.RowSpan="2">
+                   
+                </Image>
+
+                <Label Text="N1500 Airtime"
+           FontAttributes="Bold"
+             FontSize="17"
+             Grid.Row="2"
+             Grid.Column="1"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"
+                        Margin="0,0,20,0">
+                   
+                </Label>
+
+                <Label Text="Redeemed on Tuesday 15 June 2021"
+             FontSize="17"
+             Grid.Row="3"
+             Grid.Column="1"
+                        HorizontalOptions="Start"
+                       VerticalOptions="Start"
+                       VerticalTextAlignment="Start"
+                        Margin="0,0,20,0">
+                    
+                </Label>
+
+                
+
+
+                <BoxView HorizontalOptions="FillAndExpand"
+               Color="Gray"
+               HeightRequest="0.5"
+               Grid.Row="4"
+               Grid.Column="0"
+               Grid.ColumnSpan="2"/>
+
+                <!--Recent place 2-->
+                <Image Source="ic_circle_point"
+            VerticalOptions="Start"
+            Margin="20,0,0,0"
+            HeightRequest="35"
+            WidthRequest="35"
+            Grid.Row="5"
+            Grid.Column="0"
+            Grid.RowSpan="2"
+                        HorizontalOptions="Start"
+                       >
+                   
+                </Image>
+
+                <Label Text="N1500 Airtime"
+           FontAttributes="Bold"
+             FontSize="17"
+             Grid.Row="5"
+             Grid.Column="1"
+                        HorizontalOptions="Start"
+                       VerticalOptions="Start"
+                       Margin="0,0,20,0">
+                   
+                </Label>
+
+                <Label Text="Redeemed on Saturday 19 June 2021"
+             FontSize="17"
+             Grid.Row="6"
+             Grid.Column="1"
+                        HorizontalOptions="Start"
+                       VerticalOptions="Start"
+                        Margin="0,0,20,0">
+                   
+                </Label>
+
+
+
+                <BoxView HorizontalOptions="FillAndExpand"
+               Color="Gray"
+               HeightRequest="0.5"
+               Grid.Row="7"
+               Grid.Column="0"
+               Grid.ColumnSpan="2"/>
+
+                <!--Recent place 2-->
+                <Image Source="ic_circle_point"
+            VerticalOptions="Start"
+            Margin="20,0,0,0"
+            HeightRequest="35"
+            WidthRequest="35"
+            Grid.Row="8"
+            Grid.Column="0"
+            Grid.RowSpan="2"
+                        HorizontalOptions="Start"
+                       >
+
+                </Image>
+
+                <Label Text="N1500 Airtime"
+           FontAttributes="Bold"
+             FontSize="17"
+             Grid.Row="8"
+             Grid.Column="1"
+                        HorizontalOptions="Start"
+                       VerticalOptions="Start"
+                       Margin="0,0,20,0">
+
+                </Label>
+
+              
+
+                <Button Text="Redeem Now"
+                   
+                   BackgroundColor="Black"
+                  
+                   
+                   
+                   x:Name="Redeem"
+                   TextColor="White"
+                   FontSize="17"
+                   VerticalOptions="EndAndExpand"
+                   HorizontalOptions="FillAndExpand"
+                   Grid.Row="9"
+                    Grid.Column="1"
+                       
+                        Margin="0,0,20,0">
+
+                </Button>
+
+                <Label Text="Powered By Chimoney"
+             FontAttributes="Bold"
+             FontSize="17"
+             Margin="0"
+             HorizontalOptions="CenterAndExpand"
+             Grid.Row="10"
+             Grid.Column="0"
+             Grid.ColumnSpan="2"/>
+
+            </Grid>
+
+
+          
+
+
+            
+
+         
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

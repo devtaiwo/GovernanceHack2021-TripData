@@ -22,7 +22,6 @@
     <PackageReference Include="ZXing.Net.Mobile" Version="2.4.1" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\" />
     <Folder Include="Helpers\" />
   </ItemGroup>
   <ItemGroup>
@@ -30,5 +29,13 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MapStyle.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Views\Chimoney.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\InsuranceView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>
