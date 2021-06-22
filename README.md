@@ -48,6 +48,10 @@ A Google API Key is required to run the project. Insert The Google API key in co
 
 ## Hardware Screenshots:
 <p float="left">
-<img src="https://user-images.githubusercontent.com/28142790/122924016-333d3280-d35d-11eb-8bbc-28bef52288eb.png" height= "20%" width="20%"/>
-<img src="https://user-images.githubusercontent.com/28142790/122924047-3c2e0400-d35d-11eb-8125-117f40354c4e.png" height= "20%" width="20%" />
+<img src="https://user-images.githubusercontent.com/28142790/122924016-333d3280-d35d-11eb-8bbc-28bef52288eb.png" height= "20%" width="20%"/> &nbsp;&nbsp;
+<img src="https://user-images.githubusercontent.com/28142790/122924047-3c2e0400-d35d-11eb-8125-117f40354c4e.png" height= "20%" width="20%" /> &nbsp;&nbsp;
+<img src="https://user-images.githubusercontent.com/28142790/122963314-0fd6af80-d37e-11eb-8700-ed2fd7b6aa4f.png" height= "20%" width="20%" /> &nbsp;&nbsp;
+<img src="https://user-images.githubusercontent.com/28142790/122963389-20872580-d37e-11eb-82ec-2f940d80987d.png" height= "20%" width="20%" />
+
+
 </p>
