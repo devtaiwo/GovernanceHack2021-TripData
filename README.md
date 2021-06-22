@@ -30,5 +30,20 @@ We seek to collect the transport data directly from mobile devices and IOT camer
   <dd> for sharing files and online video meetings.</dd>
 </dl>
 
+
 ## Project Requirement To Run:
 A Google API Key is required to run the project. Insert The Google API key in constants.cs
+
+
+## APP Screenshots:
+![image](https://user-images.githubusercontent.com/28142790/122923701-dc375d80-d35c-11eb-9ddb-0cb104bb2eb4.png)
+![image](https://user-images.githubusercontent.com/28142790/122923817-fc671c80-d35c-11eb-9e18-596d9e81ae4c.png)
+![image](https://user-images.githubusercontent.com/28142790/122923852-0557ee00-d35d-11eb-8d52-29461231ed6d.png)
+![image](https://user-images.githubusercontent.com/28142790/122923877-0b4dcf00-d35d-11eb-8da6-adeb6e124e50.png)
+![image](https://user-images.githubusercontent.com/28142790/122923912-17399100-d35d-11eb-92d4-7aafe30c7cd9.png)
+![image](https://user-images.githubusercontent.com/28142790/122923936-1c96db80-d35d-11eb-8099-17ae74dcc501.png)
+
+
+## Hardware Screenshots:
+![image](https://user-images.githubusercontent.com/28142790/122924016-333d3280-d35d-11eb-8bbc-28bef52288eb.png)
+![image](https://user-images.githubusercontent.com/28142790/122924047-3c2e0400-d35d-11eb-8125-117f40354c4e.png)
