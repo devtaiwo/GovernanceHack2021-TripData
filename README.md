@@ -35,6 +35,15 @@ We seek to collect the transport data directly from mobile devices and IOT camer
 A Google API Key is required to run the project. Insert The Google API key in constants.cs
 
 
+## Link to Web App:
+http://edge1.tnetpro.co.uk:6013/
+
+
+## Link to APK:
+https://drive.google.com/drive/u/3/folders/15L7sRRjargTUsUEgsmwa-jAmyMBuE8iA
+
+
+
 ## APP Screenshots:
 <p float="left">
 <img src="https://user-images.githubusercontent.com/28142790/122923701-dc375d80-d35c-11eb-9ddb-0cb104bb2eb4.png" height= "20%" width="20%"/> &nbsp;&nbsp;
